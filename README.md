@@ -15,6 +15,9 @@ Observações: Este Repositório de Docker é exclusivo para o desenvolvedor sub
 
 Para ambientes de desenvolvimento,  deverá obrigatoriamente utilizar o docker para disponibilizar a aplicação em desenvolvimento, para isso é necessário que se tenha o docker e o docker compose instalado e executar o seguinte comando no root da aplicação.
 
+# Banco de Dados
+
+No projeto tem um arquivo chamado scripts.sql onde consta os scripts de criação das tabelas necessárias. Basta rodar os scripts no banco.
 
 # Subindo o Frontend e Backend {Monolítico}
 --1- docker-compose up -d --build
